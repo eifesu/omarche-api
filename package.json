@@ -17,7 +17,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@prisma/client": "^3.5.0",
+    "@prisma/client": "^5.11.0",
     "@sentry/node": "^6.15.0",
     "@types/cookie-parser": "^1.4.2",
     "@types/multer": "^1.4.7",
@@ -28,6 +28,7 @@
     "bcrypt": "^5.0.1",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
+    "date-fns": "^3.4.0",
     "dotenv": "^10.0.0",
     "dotenv-cli": "^4.1.0",
     "express": "^4.17.1",
@@ -38,6 +39,7 @@
     "multer": "^1.4.3",
     "passport": "^0.5.0",
     "passport-jwt": "^4.0.0",
+    "prisma": "^5.11.0",
     "uuid": "^8.3.2",
     "zod": "^3.11.6"
   },
@@ -50,9 +52,10 @@
     "@types/faker": "^5.5.9",
     "@types/helmet": "^4.0.0",
     "@types/hpp": "^0.2.2",
-    "@types/jest": "^27.0.3",
+    "@types/jest": "^27.5.2",
     "@types/mime-types": "^2.1.1",
-    "@types/node": "^16.11.9",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^16.18.87",
     "@types/passport": "^1.0.7",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
@@ -61,10 +64,9 @@
     "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-security": "^1.4.0",
     "faker": "^5.5.3",
-    "husky": "^7.0.0",
+    "husky": "^8.0.0",
     "jest": "^27.3.1",
     "nodemon": "^2.0.15",
-    "prisma": "^3.5.0",
     "supertest": "^6.1.6",
     "ts-jest": "^27.0.7",
     "ts-node": "^10.4.0",
@@ -74,6 +76,6 @@
     "typescript": "^4.5.2"
   },
   "prisma": {
-    "schema": "src/database/schema.prisma"
+    "schema": "src/database/prisma/schema.prisma"
   }
 }
